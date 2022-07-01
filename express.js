@@ -1,4 +1,5 @@
 const express=require("express");
+const jsondata=require("./data")
 
 const app=express(); //creating server
 app.get('/',function(req,res){
