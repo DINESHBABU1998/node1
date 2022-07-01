@@ -1,7 +1,5 @@
 const data={
     json:  {name:"Dinesh",age:"25",email:"dineshbabut25@gmail.com"},
-    json1: { name: "A", email: "AS@prepbytes.in" },
-    json2: { name: "B", email: "BS@prepbytes.in" },
     students:[
         {name:"dinesh",age:"18"},
         {name:"babu",age:"20"}
