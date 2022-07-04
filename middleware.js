@@ -1,3 +1,15 @@
+//MiddleWare
+//1.Express.js Middleware are different types of functions that are invoked by the Express.js routing layer before the final request handler.
+//2.As the name specified, Middleware appears in the middle between an initial request and final intended route.
+//3.In stack, middleware functions are always invoked in the order in which they are added.
+//4.Middleware functions are the functions that access to the request and response object (req, res) in request-response cycle.
+
+//A middleware function can perform the following tasks:
+//It can execute any code.
+//It can make changes to the request and the response objects.
+//It can end the request-response cycle.
+//It can call the next middleware function in the stack.
+
 const express=require("express");
 
 const app=express();
